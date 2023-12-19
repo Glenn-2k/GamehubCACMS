@@ -22,8 +22,7 @@ export async function gamesPage() {
   displayGames(games);
 }
 
-console.log(game.images);
-// const image = game.images[0].src;
+const image = game[0].images[0].src;
 
 function displayGames(gamesList) {
   try {
@@ -32,9 +31,9 @@ function displayGames(gamesList) {
       gameContainer.innerHTML += `
         <div class="game">
         <a href="/product-specific.html?id=${game.id}"><img src="${image}"
-                                    alt="image of ${game.title} cover" class="games-cover"></a>
-        <h2 class="games-title">${game.title}</h2>
-        <p class="price">$${game.price}</p>
+                                    alt="image of ${image} cover" class="games-cover"></a>
+        <h2 class="games-title">${game.name}</h2>
+        <p class="price">$${game.prices.price}</p>
         <a href="/cart-full.html" id="add-to-cart">Add to cart</a>
         </div>`;
     });

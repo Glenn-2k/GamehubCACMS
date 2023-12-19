@@ -472,6 +472,7 @@ Mobile View  */
   height: auto;
   width: 100%;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 .games-title {

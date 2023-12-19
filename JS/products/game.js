@@ -47,5 +47,5 @@ function displayGame(specificGame) {
     console.log("an error occured");
   }
 
-  document.title = `Gamehub | ${specificGame.title}`;
+  document.title = `Gamehub | ${specificGame.name}`;
 }

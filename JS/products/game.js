@@ -27,6 +27,7 @@ function displayGame(specificGame) {
   try {
     const realPrice = specificGame.prices.price / 100;
     const image = specificGame.images[0].src;
+
     productSpecific.innerHTML = `
   <h1 class="specific-heading">${specificGame.name}</h1>
   <div class="grid-container-specific">

@@ -501,6 +501,13 @@ Mobile View  */
   text-decoration: none;
 }
 
+#add-to-cart:hover,
+#add-to-cart-specific:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #000000;
+  color: var(--shopping-button-color);
+}
+
 @media (max-width: 500px) {
   .games-container {
     grid-template-columns: repeat(2, 1fr);

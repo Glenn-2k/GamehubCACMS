@@ -22,18 +22,19 @@ export async function gamesPage() {
   displayGames(games);
 }
 
-const image = game[0].images[0].src;
-
 function displayGames(gamesList) {
   try {
     gameContainer.innerHTML = "";
     gameArray.forEach((game) => {
+      const image = game.images[0].src;
+      const realPrice = game.prices.price / 100;
+
       gameContainer.innerHTML += `
         <div class="game">
         <a href="/product-specific.html?id=${game.id}"><img src="${image}"
-                                    alt="image of ${image} cover" class="games-cover"></a>
+                                    alt="image of ${game.name} cover" class="games-cover"></a>
         <h2 class="games-title">${game.name}</h2>
-        <p class="price">$${game.prices.price}</p>
+        <p class="price">$${realPrice}</p>
         <a href="/cart-full.html" id="add-to-cart">Add to cart</a>
         </div>`;
     });

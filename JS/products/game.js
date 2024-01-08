@@ -1,4 +1,4 @@
-const url = "http://wp.glennkristiansen.no/wp-json/wc/store/products/";
+const url = "https://wp.glennkristiansen.no/wp-json/wc/store/products/";
 
 const productSpecific = document.querySelector(".product-specific-content");
 

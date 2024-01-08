@@ -1,1 +1,2 @@
-export const apiUrl = "http://glenn2k-fed.local/wp-json/wc/store/products/";
+export const apiUrl =
+  "http://wp.glennkristiansen.no/wp-json/wc/store/products/";

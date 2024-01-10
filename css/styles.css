@@ -475,6 +475,11 @@ Mobile View  */
   border-radius: 10px;
 }
 
+.games-cover:hover {
+  scale: 1.09;
+  transition: all 0.3s ease-in-out;
+}
+
 .games-title {
   font-size: 0.8rem;
   margin: 0 auto;
@@ -562,10 +567,12 @@ Mobile View  */
   margin: 15px;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .product-specific-cover {
   max-height: 200px;
+  border-radius: 10px;
 }
 
 .specific-text {

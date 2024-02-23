@@ -29,7 +29,7 @@ If you want to contribute, I would appreciate it if you open a pull request, so 
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+Feel free to get in touch!
 
 [Email](mailto:glenn.andre.kristiansen@gmail.com)
 
